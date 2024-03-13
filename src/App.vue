@@ -10,20 +10,7 @@ const estado = reactive({
 
   filtro: 'todas',
 
-  tarefas: [
-    {
-      titulo: 'Estudar ES6',
-      finalizada: false,
-    },
-    {
-      titulo: 'Estudar SASS',
-      finalizada: false,
-    },
-    {
-      titulo: 'Ir malhar',
-      finalizada: true,
-    }
-  ]
+  tarefas: []
 })
 
 const getTarefasPendentes = () => {
